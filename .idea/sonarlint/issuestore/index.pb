@@ -11,3 +11,5 @@ Y
 ,tests/causal-consistency-integration.test.ts,2/b/2bbe3621903d3ca789c4346e4026a860308c9c4d
 W
 'contracts/paradox-resolution-token.clar,3/8/38ba2e4b0c967bc97026340263654944aea29ff9
+V
+&tests/paradox-resolution-token.test.ts,4/a/4a825d3542b9a92f27121fa612ad8ad1f467c949

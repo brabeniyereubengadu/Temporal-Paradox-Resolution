@@ -55,6 +55,11 @@ plan:
             path: contracts/causal-consistency-integration.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: paradox-resolution-token
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/paradox-resolution-token.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: temporal-anomaly-management
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/temporal-anomaly-management.clar
