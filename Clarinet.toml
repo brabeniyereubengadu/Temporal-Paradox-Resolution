@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.causal-consistency-integration]
+path = 'contracts/causal-consistency-integration.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.temporal-anomaly-management]
 path = 'contracts/temporal-anomaly-management.clar'
 clarity_version = 2
