@@ -97,7 +97,7 @@ describe('Temporal Anomaly Management Contract', () => {
   });
   
   it('should not allow unauthorized implementation', () => {
-    const anomalyId = reportAnomaly('Time traveler's dilemma detected', 8, 'reporter5');
+    const anomalyId = reportAnomaly('Time traveler\'s dilemma detected', 8, 'reporter5');
     const resolutionId = proposeResolution(anomalyId, 'Implement temporal firewall', 'proposer4');
     expect(() => implementResolution(resolutionId, 'unauthorized_user')).toThrow('Not authorized');
   });
